@@ -100,21 +100,22 @@ These images validate successful scan execution and deliverable submission.
 
 After scanning all 65,535 TCP ports, the following open services were identified:
 
-| PORT | STATE | SERVICE | VERSION           | PURPOSE              |
-|------|-------|---------|-------------------|----------------------|
-| 80   | Open  | HTTP    | Apache httpd      | Main web application |
-| 443  | Open  | HTTPS   | Apache httpd (SSL) | Secure web access    |
+| Port | State   | Service | Version         | Purpose                     |
+|------|---------|---------|-----------------|-----------------------------|
+| **80** | **Open** | **HTTP** | **nginx 1.19.0** | Main web application        |
 
-- **Total Ports Scanned:** 65,535  
-- **Open Ports Found:** 2  
-- **Closed/Filtered Ports:** 65,533  
-- **Unusual or Hidden Services:** ❌ None detected  
+- **Total Ports Scanned:** 65,535
+- **Open Ports Found:** 1
+- **Filtered Ports:** 65,534 (no response)
+- **Closed Ports:** Likely many more, but not explicitly listed in the output.
+- **Unusual or Hidden Services:** ❌ None detected
 
 ### 🔎 Detailed Observations
-- **Port 80 (HTTP):** Hosts the main application over Apache.
-- **Port 443 (HTTPS):** Encrypted version of the same site using SSL/TLS.
+
+- **Port 80 (HTTP):** Hosts the main web application over **nginx 1.19.0**.
+- **No Other Services:** Encrypted HTTPS (Port 443) was not detected in this scan.
 - No services found on ports like 21 (FTP), 22 (SSH), 23 (Telnet), etc.
-- Indicates a minimal attack surface and strong basic security hygiene.
+- Indicates a minimal attack surface and strong basic security hygiene. 
 
 ---
 
