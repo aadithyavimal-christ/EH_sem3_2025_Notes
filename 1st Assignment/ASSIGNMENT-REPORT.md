@@ -85,7 +85,7 @@ cat nmap_full_scan_results.txt
 – Code snippet showing bash file in VS Code
 
 2. 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f32b83ec-a624-4cbc-8b9d-7d7ac4a04abf" />
+<img width="1574" height="883" alt="image" src="https://github.com/user-attachments/assets/fba3cdc4-2f46-4d66-bddb-905fc79d5936" />
 – Terminal showing script execution  
 
 3. 
